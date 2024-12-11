@@ -8,11 +8,54 @@ class MainController
         $this->render('home');
     }
 
-    // Page "About"
-    public function about()
+    public function footer()
     {
-        $this->render('about');
+        $this->render('footer');
     }
+
+    public function header()
+    {
+        $this->render('header');
+    }
+
+
+    public function catalogue()
+    {
+        $this->render('catalogue');
+    }
+
+    public function login()
+    {
+        $this->render('login');
+    }
+
+    public function panier()
+    {
+        $this->render('panier');
+    }
+
+    public function voituremegane()
+    {
+        $this->render('voituremegane');
+    }
+
+    
+    public function voiturecitroen()
+    {
+        $this->render('voiturecitroen');
+    }
+
+    
+    public function voituregti()
+    {
+        $this->render('voituregti');
+    }
+
+    public function singin()
+    {
+        $this->render('singin');
+    }
+
 
     // Page 404
     public function notFound()
